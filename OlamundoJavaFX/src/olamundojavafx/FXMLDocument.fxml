@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="olamundojavafx.FXMLDocumentController">
+   <children>
+      <Button fx:id="btnClique" contentDisplay="TOP" layoutX="104.0" layoutY="100.0" mnemonicParsing="false" text="Clique" textAlignment="CENTER" textFill="#3131ad" textOverrun="CLIP">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Label fx:id="lb_menssagem" layoutX="70.0" layoutY="28.0" prefHeight="40.0" prefWidth="192.0" text="Menssagem aqui" textFill="#d31313">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
